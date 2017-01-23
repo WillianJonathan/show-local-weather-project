@@ -1,0 +1,155 @@
+html,
+body {
+ margin: 0;
+ padding: 0;
+ height: 100%;
+ width: 100%;
+}
+
+.forecast {
+  height: 100%;
+  min-height: 100%;
+
+  /* habilita o flex nos filhos diretos */
+  display: -ms-flex;
+  display: -webkit-flex;
+  display: flex;
+
+  /* centraliza na vertical */
+  -ms-align-items: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+  /* centraliza na horizontal */
+  -ms-justify-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+
+   background-color: indigo;
+}
+
+.forecast-box {
+  position: relative;
+  margin: auto auto;
+  padding: 0px; 
+  height: 300px;
+  width: 300px;
+  background-color: lightslategray;
+  border-radius: 50%;
+}
+
+/*.header {
+  position: relative;
+  top: 0px;
+  background-color: red;
+  height: 270px;
+  width: 270px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 50%;
+}*/
+/*.header:hover {
+  position: relative;
+  top: 70px;
+  background-color: red;
+  height: 200px;
+  width: 270px;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 30% 30% 50% 50%;
+}*/
+
+.forecast-main-temp {
+   font-size: 33px;
+   color: white;
+   text-align: center;
+   margin: 40px 0px 0px 0px;
+}
+
+.forecast-main-temp-min-max {
+   font-size: 12px;
+   color: white;
+   text-align: center;
+   margin: 0px 0px 0px 0px;   
+}
+
+.forecast-city-country {
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
+.forecast-weather-description {
+   font-size: 11px;
+   color: white;
+   text-align: center; 
+   margin: 0px 0px 0px 0px;    
+}
+
+.forecast-main-pressure {
+   font-size: 11px;
+   color: white;
+   text-align: center;
+   margin: 0px 0px 0px 0px;   
+}
+
+.forecast-wind-deg {
+   font-size: 11px;
+   color: white;
+   text-align: center;
+   margin: 0px 0px 0px 0px;   
+}
+
+.forecast-wind-speed {
+   font-size: 11px;
+   color: white;
+   text-align: center;
+   margin: 0px 0px 0px 0px;   
+}
+
+.forecast-clouds {
+   font-size: 11px;
+   color: white;
+   text-align: center;
+   margin: 0px 0px 0px 0px;   
+}
+
+.forecast-main-humidity {
+   font-size: 11px;
+   color: white;
+   text-align: center;
+   margin: 0px 0px 0px 0px;   
+}
+
+.rest-content {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+span:hover {
+  cursor: hand;
+  color : lightgrey;  
+}
+
+.icon {
+  position: absolute;
+  display: inline;
+  margin: 0;
+  padding: 0;
+  top: 43px;
+  left: 40px;
+}
+
+#merchandising {
+  position: absolute;
+  bottom: -40px;
+  color: white;
+  text-align: center;
+  width: 100%;
+}
+
+a:visited, a:link {
+  color: lawngreen;
+  text-decoration: none;
+}
